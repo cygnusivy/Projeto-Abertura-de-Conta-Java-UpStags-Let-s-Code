@@ -37,8 +37,23 @@ public class Aplicacao {
 		conta4.deposita(1000);
 		conta5.investe(1000);
 		
+		//Teste transferência
 		conta1.tranfere(100, conta2);
-		conta4.tranfere(10, conta2);
+		conta4.tranfere(100, conta2);
+		
+		
+		//Teste investimento
+		conta1.investe(100);
+		conta3.investe(100);;
+		conta5.investe(100);
+		
+		//Teste saque
+		conta1.saca(100);
+		conta3.saca(100);
+		conta5.saca(100);
+		
+		
+		//Consulta saldo/dados da conta
 		conta1.consultarSaldo();
 		conta2.consultarSaldo();
 		conta3.consultarSaldo();
