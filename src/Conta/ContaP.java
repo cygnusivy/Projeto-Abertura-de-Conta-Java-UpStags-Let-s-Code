@@ -10,7 +10,5 @@ public class ContaP extends Contas {
 	public ContaP(Cliente cliente, CodigoTipoConta tipo) {
 		super(cliente, tipo);
 	}
-	public ContaP(String numeroAgencia, int numeroConta, Cliente titular) {
-		super(numeroAgencia, numeroConta, titular);
-	}
+
 }

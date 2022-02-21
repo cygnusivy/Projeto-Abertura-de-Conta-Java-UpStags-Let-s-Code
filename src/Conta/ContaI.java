@@ -12,8 +12,4 @@ public class ContaI extends Contas {
 		super(titular, tipo);
 	}
 	
-	public ContaI(String numeroAgencia, int numeroConta, Cliente titular) {
-		super(numeroAgencia, numeroConta, titular);
-	}
-	
 }

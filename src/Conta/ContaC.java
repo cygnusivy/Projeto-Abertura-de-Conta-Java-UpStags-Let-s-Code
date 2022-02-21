@@ -11,8 +11,5 @@ public class ContaC extends Contas {
 	public ContaC(Cliente cliente, CodigoTipoConta tipo) {
 		super(cliente, tipo);
 	}
-	public ContaC(String numeroAgencia, int numeroConta, Cliente titular) {
-		super(numeroAgencia, numeroConta, titular);
-	}
 	
 }
